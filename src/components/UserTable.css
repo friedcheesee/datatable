@@ -1,0 +1,25 @@
+/* UserTable.css */
+
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  .user-table-container {
+    margin: 20px; /* Add some margin to the container */
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid white;
+    padding: 8px;
+  }
+  
+  .thin-row {
+    height: 20px; /* Adjust the height as needed */
+  }
+  
