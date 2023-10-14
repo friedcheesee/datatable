@@ -7,7 +7,7 @@ const UserTable = () => {
 
   useEffect(() => {
     // Fetch data using Axios
-    axios.get('https://example.com/api/users') // Replace with the actual API endpoint
+    axios.get('https://dummyjson.com/users') // Replace with the actual API endpoint
       .then(response => {
         setUserData(response.data.users);
       })
